@@ -1,0 +1,80 @@
+*{
+  margin: 5px;
+}
+.heading{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.food-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.food-boxes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.food-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #dce1d7;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  width: 500px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.food-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.food-details {
+  flex-grow: 1;
+  margin-top: 10px;
+  
+}
+
+.calorie-display{
+  font-size: 25px;
+  font-weight: bolder ;
+}
+
+.food-img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+.food-controls {
+  display: flex;
+  align-items: center;
+
+}
+
+.food-controls input {
+  width: 150px;
+  margin-right: 10px;
+}
+.selected-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.buttonis-danger{
+  padding: 15px;
+  margin: 10px;
+  background-color: grey;
+
+}
